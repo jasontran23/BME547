@@ -1,1 +1,3 @@
-# BME547
+# Patient Health Database
+
+Author: Jason Tran
