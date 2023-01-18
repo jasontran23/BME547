@@ -1,0 +1,1 @@
+The following levels are considered to be "good" in healthy people: Total cholesterol: Levels below 200 mg/dL (5.2 mmol/L) LDL cholesterol: Levels below 130 mg/dL (3.4 mmol/L)
