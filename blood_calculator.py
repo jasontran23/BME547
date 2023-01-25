@@ -92,6 +92,6 @@ def tot_driver():
     tot_in = tot_input()
     tot_analy = tot_analysis(tot_in)
     tot_output(tot_in, tot_analy)
-
-interface()
+if __name__ == "__main__":
+    interface()
     
