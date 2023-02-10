@@ -1,5 +1,5 @@
 def create_patient_entry(first_name, last_name, patient_mrn, patient_age):
-    #new_patient = [patient_name, patient_mrn, patient_age, []]
+    # new_patient = [patient_name, patient_mrn, patient_age, []]
     new_patient = {"First Name": first_name, "Last Name": last_name,
                    "MRN": patient_mrn, "Age": patient_age,
                    "Tests": []}
@@ -29,9 +29,9 @@ def main_driver():
     add_test_to_patient(db, 2, "HDL", 99)
     print(db)
     print_database(db)
-    #room_numbers = ["103", "232", "333"]
-    ##print(db)
-    ##print_directory(db, room_numbers)
+    # room_numbers = ["103", "232", "333"]
+    # print(db)
+    # print_directory(db, room_numbers)
     print(get_test_result(db, 2, "LDL"))
     return
 
@@ -69,6 +69,7 @@ def get_test_result(db, mrn, test_name):
     patient = get_patient_entry(db, mrn)
     test_value = get_test_value_from_test_list(patient["Tests"], test_name)
     return test_value
+
 
 if __name__ == "__main__":
     main_driver()

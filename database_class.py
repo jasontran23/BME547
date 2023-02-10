@@ -21,14 +21,13 @@ class Patient:
             return False
 
 
-
 def main():
     new_patient = Patient("Ann", "Ables", 1, 34)
     second_patient = Patient("Bob", "Boyles", 2, 45)
     print(new_patient)
     print(second_patient)
-    #new_patient.first_name = "David"
-    #new_patient.last_name = "Ward"
+    # new_patient.first_name = "David"
+    # new_patient.last_name = "Ward"
     new_patient.tests.append(("HDL", 100))
     print(new_patient.first_name)
     print(new_patient.last_name)
